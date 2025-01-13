@@ -10,3 +10,7 @@ const age = validateAge(age);
 
 const userName = verifyName(username);
 console.log(`Hello ${userName}!\n`);
+
+const survey_flag = prompt("Would you like to participate in our survey (Y/N): ")
+if(survey_flag == 'Y')
+    deliverSurvey()
